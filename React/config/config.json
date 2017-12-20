@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spReact/SpReactWebPart.js",
+      "manifest": "./src/webparts/spReact/SpReactWebPart.manifest.json",
+      "outputPath": "./dist/sp-react-web-part.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/spReactPreconfiguredentries/SpReactPreconfiguredentriesWebPart.js",
+      "manifest": "./src/webparts/spReactPreconfiguredentries/SpReactPreconfiguredentriesWebPart.manifest.json",
+      "outputPath": "./dist/sp-react-preconfiguredentries-web-part.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/spReactListinfo/SpReactListinfoWebPart.js",
+      "manifest": "./src/webparts/spReactListinfo/SpReactListinfoWebPart.manifest.json",
+      "outputPath": "./dist/sp-react-listinfo-web-part.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/spReactLocalization/SpReactLocalizationWebPart.js",
+      "manifest": "./src/webparts/spReactLocalization/SpReactLocalizationWebPart.manifest.json",
+      "outputPath": "./dist/sp-react-localization-web-part.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "SpReactWebPartStrings": "webparts/spReact/loc/{locale}.js",
+    "SpReactPreconfiguredentriesWebPartStrings": "webparts/spReactPreconfiguredentries/loc/{locale}.js",
+    "SpReactListinfoWebPartStrings": "webparts/spReactListinfo/loc/{locale}.js",
+    "SpReactLocalizationWebPartStrings": "webparts/spReactLocalization/loc/{locale}.js"
+  }
+}
