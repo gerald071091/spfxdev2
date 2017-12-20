@@ -1,7 +1,7 @@
 # spfxdev2
 Sharepoint development practice lab 2
 
-Web part used for lab 2 development is ##"SpReact"
+Web part used for lab 2 development is "SpReact"
 
 Testing new culture/coutry for Localization:
 
